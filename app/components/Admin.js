@@ -95,16 +95,12 @@ const Sidebar = ({ children }) => {
           <h1 className='text-gray-600 dark:text-gray-50 text-lg ml-3 font-semibold'>Books Record</h1>
         </div>
         <div onClick={handletransactions} className='flex justify-start items-center w-full dark:border-none hover:bg-gray-100 dark:bg-gray-700 dark:hover:bg-gray-800 cursor-pointer p-3 rounded-md mt-3'>
-          <IoStatsChartOutline size={20}  className='text-gray-600 dark:text-gray-50'/>
+          <BiBookAdd  size={20}  className='text-gray-600 dark:text-gray-50'/>
           <h1 className='text-gray-600 dark:text-gray-50 text-lg ml-3 font-semibold'>Add Book</h1>
         </div>
         <div onClick={handletransactions} className='flex justify-start items-center w-full dark:border-none hover:bg-gray-100 dark:bg-gray-700 dark:hover:bg-gray-800 cursor-pointer p-3 rounded-md mt-3'>
-          <BiBookAdd size={20}  className='text-gray-600 dark:text-gray-50'/>
-          <h1 className='text-gray-600 dark:text-gray-50 text-lg ml-3 font-semibold'>Add Product</h1>
-        </div>
-        <div onClick={handletransactions} className='flex justify-start items-center w-full dark:border-none hover:bg-gray-100 dark:bg-gray-700 dark:hover:bg-gray-800 cursor-pointer p-3 rounded-md mt-3'>
           <LiaUsersCogSolid size={20}  className='text-gray-600 dark:text-gray-50'/>
-          <h1 className='text-gray-600 dark:text-gray-50 text-lg ml-3 font-semibold'>Users</h1>
+          <h1 className='text-gray-600 dark:text-gray-50 text-lg ml-3 font-semibold'>Manage Users</h1>
         </div>
         <div onClick={handletransactions} className='flex justify-start items-center w-full dark:border-none hover:bg-gray-100 dark:bg-gray-700 dark:hover:bg-gray-800 cursor-pointer p-3 rounded-md mt-3'>
           <MdOutlineLogout size={20}  className='text-gray-600 dark:text-gray-50'/>
