@@ -154,26 +154,23 @@ function page() {
         <ToastContainer hideProgressBar={true} autoClose={2500}/>
         <Navbar />
         <motion.div 
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: .5 }}
             className={`${login ? "" : "hidden"}`}
         >
         <div className="flex min-h-full flex-1 flex-col justify-center px-4 pt-2 pb-20 lg:px-8">
             <div className="sm:mx-auto sm:w-full sm:max-w-sm">
                 <img
-                className="mx-auto h-72 w-auto"
-                src="/login.avif"
-                alt="Your Company"
+                  className="mx-auto h-52 w-auto"
+                  src="/login.avif"
+                  alt="Your Company"
                 />
-                <h2 className="mt-5 text-3xl font-bold tracking-wide text-gray-900">
+                <h2 className="mt-5 text-3xl font-bold tracking-wide text-gray-900 hidden">
                   Administrator Sign In
                 </h2>
-                <p className='text-gray-600 font-semibold text-sm sm:text-sm mt-2'>Welcome back! Enter your email and password</p>
+                <p className='text-gray-600 font-semibold text-sm sm:text-sm mt-2'>Welcome back! Enter your administrator Email and Password</p>
             </div>
 
-            <div className="mt-5 sm:mx-auto sm:w-full sm:max-w-sm">
-              <form className="space-y-6" onSubmit={handleLogin}>
+            <div className="mt-3 sm:mx-auto sm:w-full sm:max-w-sm">
+              <form className="space-y-5" onSubmit={handleLogin}>
                 <div>
                     <label htmlFor="email" className="block text-sm font-medium leading-6 text-gray-900">
                     Email address

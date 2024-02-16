@@ -15,9 +15,9 @@ function ThirdSection() {
             <img
               src="photo-4.avif"
               alt="image"
-              className="w-20 h-20 rounded-full"
+              className="w-16 sm:w-20 h-16 sm:h-20 rounded-full"
             />
-            <h1 className='font-bold text-xl ml-3 mb-4'>Abdullahi Adamu</h1>
+            <h1 className='font-bold text-lg sm:text-xl ml-3 mb-4'>Abdullahi Adamu</h1>
           </div>
         </div>
         <div className='rounded sm:rounded-none md:flex-1 mx-1 md:mx-2 my-2 md:my-0 bg-white dark:bg-gray-700 p-5 w-full md:w-2/6 shadow-md flex justify-between flex-col'>
@@ -30,9 +30,9 @@ function ThirdSection() {
             <img
               src="photo-6.jpg"
               alt="image"
-              className="w-20 h-20 rounded-full"
+              className="w-16 sm:w-20 h-16 sm:h-20 rounded-full"
             />
-            <h1 className='font-bold text-xl ml-3 mb-4'>Musa Sulaiman</h1>
+            <h1 className='font-bold text-lg sm:text-xl ml-3 mb-4'>Musa Sulaiman</h1>
           </div>
         </div>
         <div className='rounded sm:rounded-none md:flex-1 mx-1 md:mx-2 my-2 md:my-0 bg-white dark:bg-gray-700 p-5 w-full md:w-2/6 shadow-md flex justify-between flex-col'>
@@ -45,9 +45,9 @@ function ThirdSection() {
             <img
               src="photo-5.png"
               alt="image"
-              className="w-20 h-20 rounded-full"
+              className="w-16 sm:w-20 h-16 sm:h-20 rounded-full"
             />
-            <h1 className='font-bold text-xl ml-3 mb-4'>Idris Ibrahim</h1>
+            <h1 className='font-bold text-lg sm:text-xl ml-3 mb-4'>Idris Ibrahim</h1>
           </div>
         </div>
       </div>

@@ -34,9 +34,9 @@ function LastSection() {
     return (
         <>
             <ToastContainer hideProgressBar={true} />
-            <div className='flex flex-col justify-center py-12 px-2 sm:px-5 lg:px-20 font-serif select-none bg-gray-50 dark:bg-black '>
+            <div className='flex flex-col justify-center py-8 px-2 sm:px-5 lg:px-20 font-serif select-none bg-gray-50 dark:bg-black '>
             <h1 className='text-2xl md:text-3xl md:text-start tracking-wider font-bold sm:mb-3 text-black dark:text-white'>Contact Us</h1>     
-                <div className='w-full flex flex-col mt-2 sm:mt-5'>
+                <div className='w-full flex flex-col mt-4 sm:mt-5 px-1'>
                     <form className="w-full" ref={form} onSubmit={sendEmail}>
                         <div className='flex flex-col sm:flex-row items-center justify-center sm:gap-10'>
                             <span className='flex flex-col w-full sm:w-3/6 my-3'>
@@ -58,7 +58,7 @@ function LastSection() {
                         <div className='w-full flex justify-start items-center'>
                             <button
                                 type="submit"
-                                className={`font-bold text-white text-xs sm:text-base bg-teal-600 hover:bg-teal-700 font-serif mt-5 py-3 px-4 sm:px-8 rounded-md sm:rounded-full shadow-md dark:border-none`}
+                                className={`font-bold text-white text-sm sm:text-base bg-teal-600 hover:bg-teal-700 font-serif mt-3 py-3 px-4 sm:px-8 shadow-md dark:border-none`}
                                 disabled={loading}
                             >
                                 {loading ? 'Loading...' : 'Send Message'}

@@ -14,11 +14,11 @@ export default function BasicTable() {
       <Table sx={{ minWidth: 650 }} aria-label="simple table">
         <TableHead>
           <TableRow>
-            <TableCell>Book Title</TableCell>
-            <TableCell align="center">Student Department</TableCell>
-            <TableCell align="center">Student Reg Number</TableCell>
-            <TableCell align="center">Collection Date</TableCell>
-            <TableCell align="center">Return Date</TableCell>
+            <TableCell className="font-bold">Book Title</TableCell>
+            <TableCell className="font-bold" align="center">Student Department</TableCell>
+            <TableCell className="font-bold" align="center">Student Reg Number</TableCell>
+            <TableCell className="font-bold" align="center">Collection Date</TableCell>
+            <TableCell className="font-bold" align="center">Return Date</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>

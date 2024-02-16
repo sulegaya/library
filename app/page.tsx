@@ -2,9 +2,9 @@
 import Navbar from "./components/Navbar";
 import Swiper from "./components/Swiper";
 import SecondSection from "./components/SecondSection";
-import FeedBackSection from "./components/FeedBackSection";
 import ThirdSection from "./components/ThirdSection";
-import LastSection from "./components/LastSection";
+import AboutVc from "./components/AboutVc";
+import AboutThird from "./components/AboutThird";
 import Footer from "./components/Footer";
 
 export default function Home() {
@@ -12,10 +12,10 @@ export default function Home() {
     <main className='min-h-screen overflow-x-hidden'>
       <Navbar />
       <Swiper />
+      <AboutVc />
       <SecondSection />
       <ThirdSection />
-      <FeedBackSection />
-      <LastSection />
+      <AboutThird />
       <Footer />
     </main>
   )

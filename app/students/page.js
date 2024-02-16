@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 
 import { auth, db, storage } from "../components/Firebase";
 import Navbar from "../components/Navbar";
-import Admin from "../components/Admin";
+import StudentProfile from "../components/StudentProfile";
 import { onAuthStateChanged } from "firebase/auth";
 import { setDoc, doc, collection, getDoc, query, where, onSnapshot  } from 'firebase/firestore';
 import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword } from "firebase/auth";
@@ -150,7 +150,6 @@ function page() {
   return (
     <div>
         <ToastContainer hideProgressBar={true} autoClose={2500}/>
-        <Navbar />
         <motion.div 
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
@@ -160,7 +159,7 @@ function page() {
         <div className="flex min-h-full flex-1 flex-col justify-center px-4 pt-2 pb-20 lg:px-8">
             <div className="sm:mx-auto sm:w-full sm:max-w-sm">
                 <img
-                className="mx-auto h-72 w-auto"
+                className="mx-auto h-52 w-auto"
                 src="/login.avif"
                 alt="Your Company"
                 />
@@ -244,7 +243,7 @@ function page() {
           <div className="flex min-h-full flex-1 flex-col justify-center px-3 pt-3 pb-20 lg:px-8 bg-white">
             <div className="sm:mx-auto sm:w-full sm:max-w-sm">
               <img
-                className="mx-auto h-72 w-auto"
+                className="mx-auto h-52 w-auto"
                 src="/register.avif"
                 alt="Your Company"
               />
@@ -391,8 +390,8 @@ function page() {
             </div>
             </div>
         </motion.div>
-        <div className={`${account ? "" : "hidden"}`}>
-          <Admin email={email} userData={userData} onLogout={handleLogout} setUserData={setUserData} />
+        <div className={`${account ? "overflow-y-scroll lg:overflow-y-hidden" : "hidden"}`}>
+          <StudentProfile email={email} userData={userData} onLogout={handleLogout} setUserData={setUserData} />
         </div>
     </div>
   )

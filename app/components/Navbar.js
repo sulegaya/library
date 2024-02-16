@@ -36,14 +36,12 @@ function Navbar2() {
       onKeyDown={toggleDrawer(anchor, false)}
       className="pt-4 pb-10 select-none"
     >
-      <div className="flex justify-between items-center pb-3 pr-3 pl-2">
-        <h1 className="text-xl font-semibold text-teal-600 hover:text-teal-900">
-          Aliko Dangote University Of Science & Technology, Wudil 
-        </h1>
+      <div className="flex justify-between items-center pb-3 pr-3 pl-4">
+        <img className="w-[100px] h-[80px]  border border-gray-50/50" src='/logo.png' alt='logo'/>
         
         <IoMdClose
           onClick={toggleDrawer(anchor, false)}
-          className='text-4xl font-extrabold'
+          className='text-2xl font-bold'
         />
       </div>
       <List className='flex flex-col justify-between overflow-y-auto px-3'>
@@ -57,11 +55,11 @@ function Navbar2() {
           <Link href="/admin" className='no-underline justify-start items-end pl-1 pb-3 border-b-2 mt-4 hover:text-black-500 hover:cursor-pointer '>
            <h1 className='text-base font-semibold ml-3'>Admin</h1>
           </Link>
-          <Link href="/books" className='no-underline justify-start items-end pl-1 pb-3 border-b-2 mt-4 hover:text-black-500 hover:cursor-pointer '>
-           <h1 className='text-base font-semibold ml-3'>Books</h1>
+          <Link href="/readerService" className='no-underline justify-start items-end pl-1 pb-3 border-b-2 mt-4 hover:text-black-500 hover:cursor-pointer '>
+           <h1 className='text-base font-semibold ml-3'>Reader Services</h1>
           </Link>
           <Link href="/students" className='no-underline flex justify-start items-end pl-1 pb-3 border-b-2 mt-4 hover:text-black-500 hover:cursor-pointer'>
-            <h1 className='text-base font-semibold ml-3'>Student Login</h1>
+            <h1 className='text-base font-semibold ml-3'>E-Library</h1>
           </Link>
         </div>
       </List>
@@ -78,23 +76,23 @@ function Navbar2() {
     </Box>
   );
   return (
-    <nav className='bg-white py-1 pr-2 sm:px-4 w-full flex justify-between items-center z-50 border border-gray-50/70'>
+    <nav className='bg-white py-1 pr-3 sm:px-4 w-full flex justify-between items-center z-50 border border-gray-50/70'>
       <div className='flex justify-start items-center w-4/5 lg:w-3/6 cursor-pointer'>
         <img className="w-[32] sm:w-52 h-[60px] sm:h-[100px] border border-gray-50/50" src='/logo.png' alt='logo'/>
-        <h1 className='font-bold sm:font-extrabold text-teal-600 uppercase tracking-[2px] lg:tracking-[3px] text-xs md:text-lg lg:text-xl sm:ml-1'>
-           Aliko Dangote University Of Science & Technology, Wudil 
+        <h1 className='font-semibold sm:font-extrabold text-teal-600 uppercase tracking-[2px] lg:tracking-[3px] text-xs md:text-base lg:text-lg sm:ml-1'>
+           University Library, <br></br> Aliko Dangote University Of Science & Technology, Wudil 
         </h1>
       </div>
       <div className='hidden lg:flex'>
-        <Link href="/" className="text-lg text-gray-600 font-semibold md:hover:text-gray-400 mx-2">Home</Link>
+        <Link href="/" className="text-lg text-gray-600 font-semibold md:hover:text-gray-400 mx-2 font-mono">Home</Link>
 
-        <Link href="/about" className="text-lg text-gray-600 font-semibold md:hover:text-gray-400 mx-2">About Us</Link>
+        <Link href="/about" className="text-lg text-gray-600 font-semibold md:hover:text-gray-400 mx-2 font-mono">About Us</Link>
 
-        <Link href="/admin" className="text-lg text-gray-600 font-semibold md:hover:text-gray-400 mx-2">Admin</Link>
+        <Link href="/admin" className="text-lg text-gray-600 font-semibold md:hover:text-gray-400 mx-2 font-mono">Admin</Link>
 
-        <Link href="/books" className="text-lg text-gray-600 font-semibold md:hover:text-gray-400 mx-2">Books</Link>
+        <Link href="/readerService" className="text-lg text-gray-600 font-semibold md:hover:text-gray-400 mx-2 font-mono">Reader Services</Link>
 
-        <Link href="/students" className="text-lg text-gray-600 font-semibold md:hover:text-gray-400 mx-2">Student Login</Link>
+        <Link href="/students" className="text-lg text-gray-600 font-semibold md:hover:text-gray-400 mx-2 font-mono">E-Library</Link>
         
   
         

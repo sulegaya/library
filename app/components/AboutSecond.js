@@ -10,7 +10,7 @@ function AboutSecond() {
       <h1 className='text-gray-800 font-serif font-bold text-center text-2xl md:text-3xl lg:text-4xl'>
         Our Institutional Standing
       </h1>
-      <div className="w-full flex justify-center items-center flex-wrap sm:flex-no-wrap gap-2 pt-5 sm:pt-10">
+      <div className="w-full flex justify-center items-center flex-wrap sm:flex-no-wrap gap-2 sm:gap-4 pt-5 sm:pt-10">
         <div className='w-full sm:w-4/6 md:w-1/4 h-32 sm:h-40 flex justify-between items-center py-4 px-4 sm:px-6 bg-teal-600'>
             <div className='flex justify-center items-center flex-col'>
                 <h1 className='text-gray-50 font-semibold text-xl'>
