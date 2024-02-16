@@ -7,7 +7,7 @@ function AboutVc() {
     <div className='bg-white py-3 sm:py-6 md:py-12 px-3 md:px-8 lg:px-16 md:w-full flex justify-between items-center flex-col md:flex-row-reverse'>
         <div className='relative w-full md:w-3/6 h-48 md:h-96 overflow-hidden'>
             <Image
-                src="/VC.PNG"
+                src="/vc.jpg"
                 alt=''
                 layout="fill"
                 objectFit="cover"
