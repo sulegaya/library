@@ -8,7 +8,7 @@ function AboutVc() {
         <div className='relative w-full md:w-3/6 h-48 md:h-96 overflow-hidden'>
             <Image
                 src="/vc.jpg"
-                alt=''
+                alt='image'
                 layout="fill"
                 objectFit="cover"
                 className=''

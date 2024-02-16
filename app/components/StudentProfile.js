@@ -167,7 +167,7 @@ const StudentProfile = ({ children }) => {
                 </React.Fragment>
               ))}
             </div>
-            <h2 className='text-lg sm:text-xl font-semibold mt-1 pb-2'> Discover the Diversity of Books Available in Our University Library</h2>
+            <h2 className='text-base sm:text-lg font-semibold mt-1 pb-2'> Discover the Diversity of Books Available in Our University Library</h2>
           </div>
           
           <AvailableBooks />

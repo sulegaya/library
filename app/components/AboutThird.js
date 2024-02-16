@@ -48,7 +48,7 @@ const AboutThird = () => {
             Discover our university library's "Serial Department" - your gateway to periodicals, journals, and serial publications. Stay updated with the latest research and scholarly insights.
           </p>
         </div>
-        <Link href="#" className="bg-blue-600 hover:bg-blue-700 py-1.5 w-full mx-auto mt-3 text-white font-semibold text-center rounded-md">View More</Link>
+        <Link href="/serialDepartment" className="bg-blue-600 hover:bg-blue-700 py-1.5 w-full mx-auto mt-3 text-white font-semibold text-center rounded-md">View More</Link>
       </div>
 
       <div className='card-wrapper w-full md:w-1/2 lg:w-1/4 mx-2 sm:mx-4 shadow-md bg-slate-50/30 rounded-md p-2 my-3 border border-slate-50 flex justify-between items-center flex-col'>
