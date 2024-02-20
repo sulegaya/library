@@ -7,7 +7,7 @@ function ThirdSection() {
     <div className='relative my-3 sm:my-5 mx-2 sm:mx-10 select-none'>
         <div className="h-[280px] md:h-[450px] overflow-hidden">
             <Image
-            src="/image-24.jpg"
+            src="/image-3.jpg"
             alt="image"
             layout="fill"
             objectFit="cover"
