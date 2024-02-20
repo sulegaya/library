@@ -13,14 +13,12 @@ const AboutThird = () => {
         Our university library houses an array of specialized departments catering to diverse academic disciplines. From literature to science, our comprehensive collection supports research, coursework, and intellectual exploration. Expert librarians are available to assist you in navigating our extensive resources, ensuring you have the tools needed for academic success.
       </p>
 
-      <div className='card-wrapper w-full md:w-1/2 lg:w-1/4 mx-2 sm:mx-4 shadow-md bg-slate-50/30 rounded-md p-2 my-3 border border-slate-50 flex justify-between items-center flex-col'>
-        <div className='relative rounded-md w-full h-52 mb-4 overflow-hidden'>
-          <Image
+      <div className='card-wrapper w-full md:w-1/2 lg:w-1/4 mx-2 sm:mx-4 shadow-md bg-slate-50/30 rounded-md p-2 my-3 border bo1der-slate-50 flex justify-between items-center flex-col'>
+        <div className='rounded-md w-full h-52 mb-4 overflow-hidden'>
+          <img
             src="/image-22.jpg"
             alt=''
-            layout="fill"
-            objectFit="cover"
-            className='rounded-md'
+            className='rounded-sm w-full h-full'
           />
         </div>
         <div className='text-center'>
@@ -32,14 +30,12 @@ const AboutThird = () => {
         <Link href="/readerService" className="bg-blue-600 hover:bg-blue-700 py-1.5 w-full mx-auto mt-3 text-white font-semibold text-center rounded-md">View More</Link>
       </div>
 
-      <div className='card-wrapper w-full md:w-1/2 lg:w-1/4 mx-2 sm:mx-4 shadow-md bg-slate-50/30 rounded-md p-2 my-3 border border-slate-50 flex justify-between items-center flex-col'>
-        <div className='relative rounded-md w-full h-52 mb-4 overflow-hidden'>
-          <Image
+      <div className='card-wrapper w-full md:w-1/2 lg:w-1/4 mx-2 sm:mx-4 shadow-md bg-slate-50/30 rounded-md p-2 my-3 border bo1der-slate-50 flex justify-between items-center flex-col'>
+        <div className='rounded-md w-full h-52 mb-4 overflow-hidden'>
+          <img
             src="/image-9.jpg"
             alt=''
-            layout="fill"
-            objectFit="cover"
-            className='rounded-md'
+            className='rounded-sm w-full h-full'
           />
         </div>
         <div className='text-center'>
@@ -51,14 +47,12 @@ const AboutThird = () => {
         <Link href="/serialDepartment" className="bg-blue-600 hover:bg-blue-700 py-1.5 w-full mx-auto mt-3 text-white font-semibold text-center rounded-md">View More</Link>
       </div>
 
-      <div className='card-wrapper w-full md:w-1/2 lg:w-1/4 mx-2 sm:mx-4 shadow-md bg-slate-50/30 rounded-md p-2 my-3 border border-slate-50 flex justify-between items-center flex-col'>
-        <div className='relative rounded-md w-full h-52 mb-4 overflow-hidden'>
-          <Image
+      <div className='card-wrapper w-full md:w-1/2 lg:w-1/4 mx-2 sm:mx-4 shadow-md bg-slate-50/30 rounded-md p-2 my-3 border bo1der-slate-50 flex justify-between items-center flex-col'>
+        <div className='rounded-md w-full h-52 mb-4 overflow-hidden'>
+          <img
             src="/image-23.jpg"
             alt=''
-            layout="fill"
-            objectFit="cover"
-            className='rounded-md'
+            className='rounded-sm w-full h-full'
           />
         </div>
         <div className='text-center'>
@@ -70,14 +64,12 @@ const AboutThird = () => {
         <Link href="/collectionDevelopment" className="bg-blue-600 hover:bg-blue-700 py-1.5 w-full mx-auto mt-3 text-white font-semibold text-center rounded-md">View More</Link>
       </div>
 
-      <div className='card-wrapper w-full md:w-1/2 lg:w-1/4 mx-2 sm:mx-4 shadow-md bg-slate-50/30 rounded-md p-2 my-3 border border-slate-50 flex justify-between items-center flex-col'>
-        <div className='relative rounded-md w-full h-52 mb-4 overflow-hidden'>
-          <Image
+      <div className='card-wrapper w-full md:w-1/2 lg:w-1/4 mx-2 sm:mx-4 shadow-md bg-slate-50/30 rounded-md p-2 my-3 border bo1der-slate-50 flex justify-between items-center flex-col'>
+        <div className='rounded-md w-full h-52 mb-4 overflow-hidden'>
+          <img
             src="/image-10.jpg"
             alt=''
-            layout="fill"
-            objectFit="cover"
-            className='rounded-md'
+            className='rounded-sm w-full h-full'
           />
         </div>
         <div className='text-center'>
@@ -89,14 +81,12 @@ const AboutThird = () => {
         <Link href="/students" className="bg-blue-600 hover:bg-blue-700 py-1.5 w-full mx-auto mt-3 text-white font-semibold text-center rounded-md">View More</Link>
       </div>
 
-      <div className='card-wrapper w-full md:w-1/2 lg:w-1/4 mx-2 sm:mx-4 shadow-md bg-slate-50/30 rounded-md p-2 my-3 border border-slate-50 flex justify-between items-center flex-col'>
+      <div className='card-wrapper w-full md:w-1/2 lg:w-1/4 mx-2 sm:mx-4 shadow-md bg-slate-50/30 rounded-md p-1 my-3 border border-slate-50 flex justify-between items-center flex-col'>
         <div className='relative rounded-md w-full h-52 mb-4 overflow-hidden'>
-          <Image
+          <img
             src="/image-12.jpg"
             alt=''
-            layout="fill"
-            objectFit="cover"
-            className='rounded-md'
+            className='rounded-sm w-full h-full'
           />
         </div>
         <div className='text-center'>
