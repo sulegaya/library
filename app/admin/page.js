@@ -37,7 +37,7 @@ function page() {
       try {
         const userCredential = await signInWithEmailAndPassword(auth, email, password);
         const user = (userCredential.user);
-        if (user.email === "admin@gmail.com") {
+        if (user.email === "admin@gmail.com" || user.email === "suleahmadgaya9@gmail.com") {
           setLogin(false);
           setRegister(false);
           setAccount(true);
