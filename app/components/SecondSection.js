@@ -4,7 +4,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 function SecondSection() {
   return (
     <div className='flex flex-col md:flex-row items-stretch justify-between gap-2 py-3 sm:py-5 px-2 sm:px-10 select-none'>
-      <div className='h-[250px] md:h-[400px] lg:h-[500px] w-full md:w-3/5 lg:w-3/6 shadow-md overflow-hidden relative'>
+      <div className='h-[250px] md:h-[400px] lg:h-[500px] w-full md:w-3/6 lg:w-3/5 shadow-md overflow-hidden relative'>
         <img className="w-full h-full" src='/image-3.jpg' alt=''/>
         <div className="absolute inset-0 bg-black opacity-20 z-10"></div>
         <div className="z-50 absolute bottom-0 left-0 right-0 flex flex-col items-center justify-end px-2 sm:px-5 lg:px-10 text-white">
