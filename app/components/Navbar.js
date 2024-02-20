@@ -80,7 +80,7 @@ function Navbar2() {
       <div className='flex justify-start items-center w-4/5 lg:w-3/6 cursor-pointer'>
         <img className="w-[32] sm:w-52 h-[60px] sm:h-[100px] border border-gray-50/50" src='/logo.png' alt='logo'/>
         <h1 className='font-semibold sm:font-extrabold text-teal-600 uppercase tracking-[2px] lg:tracking-[3px] text-xs md:text-base lg:text-lg sm:ml-1'>
-           University Library, <br></br> Aliko Dangote University Of Science & Technology, Wudil 
+           <span className="text-teal-400 ">University Library,</span> <br></br> Aliko Dangote University Of Science & Technology, Wudil 
         </h1>
       </div>
       <div className='hidden lg:flex'>

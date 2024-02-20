@@ -16,7 +16,7 @@ const AboutThird = () => {
       <div className='card-wrapper w-full md:w-1/2 lg:w-1/4 mx-2 sm:mx-4 shadow-md bg-slate-50/30 rounded-md p-2 my-3 border border-slate-50 flex justify-between items-center flex-col'>
         <div className='relative rounded-md w-full h-52 mb-4 overflow-hidden'>
           <Image
-            src="/image-3.jpg"
+            src="/image-22.jpg"
             alt=''
             layout="fill"
             objectFit="cover"
@@ -54,7 +54,7 @@ const AboutThird = () => {
       <div className='card-wrapper w-full md:w-1/2 lg:w-1/4 mx-2 sm:mx-4 shadow-md bg-slate-50/30 rounded-md p-2 my-3 border border-slate-50 flex justify-between items-center flex-col'>
         <div className='relative rounded-md w-full h-52 mb-4 overflow-hidden'>
           <Image
-            src="/image-11.jpg"
+            src="/image-23.jpg"
             alt=''
             layout="fill"
             objectFit="cover"

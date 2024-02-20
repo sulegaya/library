@@ -45,7 +45,7 @@ function SwiperJs() {
                 className=""
               />
               <div className="absolute inset-0 bg-black opacity-20 z-10"></div>
-              <div className="z-50 absolute inset-0 flex flex-col items-center justify-center px-4 lg:px-6 text-center text-white">
+              <div className="z-50 absolute inset-0 flex flex-col items-center justify-center px-4 lg:px-6 text-center text-white select-none">
                 <h1 className="animate__animated animate__slideInUp cursor-pointer text-center font-extrabold text-base md:text-2xl lg:text-3xl leading-snug mb-2 sm:mb-4 mt-2">
                   {text}
                 </h1>
