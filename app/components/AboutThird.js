@@ -50,7 +50,7 @@ const AboutThird = () => {
       <div className='card-wrapper w-full md:w-1/2 lg:w-1/4 mx-2 sm:mx-4 shadow-md bg-slate-50/30 rounded-md p-2 my-3 border bo1der-slate-50 flex justify-between items-center flex-col'>
         <div className='rounded-md w-full h-52 mb-4 overflow-hidden'>
           <img
-            src="/image-23.jpg"
+            src="/IMG_5806.jpg"
             alt=''
             className='rounded-sm w-full h-full'
           />
