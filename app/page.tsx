@@ -5,6 +5,7 @@ import SecondSection from "./components/SecondSection";
 import ThirdSection from "./components/ThirdSection";
 import AboutVc from "./components/AboutVc";
 import AboutThird from "./components/AboutThird";
+import Video from "./components/Video";
 import Footer from "./components/Footer";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <SecondSection />
       <ThirdSection />
       <AboutThird />
+      <Video />
       <Footer />
     </main>
   )
