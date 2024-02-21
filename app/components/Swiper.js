@@ -13,7 +13,6 @@ function SwiperJs() {
     "Embark on a journey of knowledge at Aliko Dangote University of Science and Technology, Wudil. Explore our library, where dreams take flight and aspirations soar.",
     "Immerse yourself in a world of endless possibilities at our university library. Here, every page holds the promise of discovery and growth.",
     "Ignite your passion for learning at our vibrant library, the heart of academic excellence. Dive into a sea of books and let curiosity guide your path.",
-    "Unlock your potential with the resources and support of our university library. From textbooks to research papers, find the inspiration to excel and make your mark."
   ]);
 
   return (

@@ -7,7 +7,7 @@ function SecondSection() {
     <div className='flex flex-col md:flex-row items-stretch justify-between gap-2 py-3 sm:py-5 px-2 sm:px-10 select-none'>
       <div className='h-[250px] md:h-[400px] lg:h-[500px] w-full md:w-3/6 lg:w-3/6 shadow-md overflow-hidden relative'>
         <Image
-            src="/image-ew.PNG"
+            src="/image-3.jpg"
             alt="image"
             layout="fill"
             objectFit="cover"
