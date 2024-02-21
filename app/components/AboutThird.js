@@ -16,7 +16,7 @@ const AboutThird = () => {
       <div className='card-wrapper w-full md:w-1/2 lg:w-1/4 mx-2 sm:mx-4 shadow-md bg-slate-50/30 rounded-md p-2 my-3 border bo1der-slate-50 flex justify-between items-center flex-col'>
         <div className='relative rounded-md w-full h-56 mb-4 overflow-hidden'>
           <Image
-            src="/image-ew.PNG"
+            src="/image-59.jpg"
             alt=''
             layout="fill"
             objectFit="cover"
@@ -35,7 +35,7 @@ const AboutThird = () => {
       <div className='card-wrapper w-full md:w-1/2 lg:w-1/4 mx-2 sm:mx-4 shadow-md bg-slate-50/30 rounded-md p-2 my-3 border bo1der-slate-50 flex justify-between items-center flex-col'>
         <div className='relative rounded-md w-full h-56 mb-4 overflow-hidden'>
           <Image
-            src="/image-4.jpg"
+            src="/image-3.jpg"
             alt=''
             layout="fill"
             objectFit="cover"
@@ -54,7 +54,7 @@ const AboutThird = () => {
       <div className='card-wrapper w-full md:w-1/2 lg:w-1/4 mx-2 sm:mx-4 shadow-md bg-slate-50/30 rounded-md p-2 my-3 border bo1der-slate-50 flex justify-between items-center flex-col'>
         <div className='relative rounded-md w-full h-56 mb-4 overflow-hidden'>
           <Image
-            src="/image-new-2.PNG"
+            src="/image-11.jpg"
             alt=''
             layout="fill"
             objectFit="cover"
