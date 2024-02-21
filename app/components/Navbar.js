@@ -79,8 +79,8 @@ function Navbar2() {
     <nav className='bg-white py-1 pr-3 sm:px-4 w-full flex justify-between items-center z-50 border border-gray-50/70'>
       <div className='flex justify-start items-center w-4/5 lg:w-3/6 cursor-pointer'>
         <img className="w-[32] sm:w-52 h-[60px] sm:h-[100px] border border-gray-50/50" src='/logo.png' alt='logo'/>
-        <h1 className='font-semibold sm:font-extrabold text-teal-600 uppercase tracking-[2px] lg:tracking-[3px] text-xs md:text-base lg:text-lg sm:ml-1'>
-           <span className="text-teal-400 ">University Library,</span> <br></br> Aliko Dangote University Of Science & Technology, Wudil 
+        <h1 className='font-semibold sm:font-extrabold text-teal-400 uppercase tracking-[2px] lg:tracking-[3px] text-xs md:text-base lg:text-lg sm:ml-1'>
+           <span className="text-teal-600 ">University Library,</span> <br></br> Aliko Dangote University Of Science & Technology, Wudil 
         </h1>
       </div>
       <div className='hidden lg:flex'>
